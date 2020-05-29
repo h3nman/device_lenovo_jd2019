@@ -1,6 +1,6 @@
 BOARD_VENDOR := lenovo
 
-DEVICE_PATH := device/lenovo/kunlun2
+DEVICE_PATH := device/lenovo/jd2019
 
 # Architecture
 TARGET_ARCH := arm64
@@ -33,7 +33,7 @@ BOARD_KERNEL_PAGESIZE := 4096
 BOARD_KERNEL_TAGS_OFFSET := 0x00000100
 BOARD_RAMDISK_OFFSET := 0x01000000
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
-TARGET_PREBUILT_KERNEL := device/lenovo/kunlun2/prebuilt/Image.gz-dtb
+TARGET_PREBUILT_KERNEL := device/lenovo/jd2019/prebuilt/Image.gz-dtb
 
 # APEX image
 DEXPREOPT_GENERATE_APEX_IMAGE := true

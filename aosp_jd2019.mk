@@ -22,10 +22,10 @@ TARGET_GAPPS_ARCH := arm64
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := aosp_kunlun2
+PRODUCT_NAME := aosp_jd2019
 PRODUCT_BRAND := lenovo
-PRODUCT_DEVICE := kunlun2
+PRODUCT_DEVICE := jd2019
 PRODUCT_MANUFACTURER := lenovo
-PRODUCT_MODEL := Lenovo K10 Note
+PRODUCT_MODEL := Lenovo Z5s
 
 PRODUCT_GMS_CLIENTID_BASE := android-lenovo

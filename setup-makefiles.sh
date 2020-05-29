@@ -7,7 +7,7 @@
 
 set -e
 
-DEVICE=kunlun2
+DEVICE=jd2019
 VENDOR=lenovo
 
 INITIAL_COPYRIGHT_YEAR=2019

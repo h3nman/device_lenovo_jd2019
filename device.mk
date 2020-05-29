@@ -4,7 +4,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Get non-open-source specific aspects
-$(call inherit-product-if-exists, vendor/lenovo/kunlun2/kunlun2-vendor.mk)
+$(call inherit-product-if-exists, vendor/lenovo/jd2019/jd2019-vendor.mk)
 
 # Enable updating of APEXes
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
@@ -87,7 +87,7 @@ PRODUCT_COPY_FILES += \
 
 # Lights
 PRODUCT_PACKAGES += \
-    android.hardware.light@2.0-service.lenovo_kunlun2
+    android.hardware.light@2.0-service.lenovo_jd2019
 
 # Media
 PRODUCT_COPY_FILES += \
@@ -128,7 +128,7 @@ PRODUCT_PACKAGES += \
 
 # USB
 PRODUCT_PACKAGES += \
-    android.hardware.usb@1.0-service.lenovo_kunlun2
+    android.hardware.usb@1.0-service.lenovo_jd2019
 
 # WiFi
 PRODUCT_COPY_FILES += \
