@@ -1,2 +1,2 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_jd2019.mk
+    $(LOCAL_DIR)/revengeos_jd2019.mk

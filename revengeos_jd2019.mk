@@ -19,12 +19,15 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 TARGET_GAPPS_ARCH := arm64
 
 # Inherit some common Lineage stuff
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/revengeos/config/common.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := aosp_jd2019
+PRODUCT_NAME := revengeos_jd2019
 PRODUCT_BRAND := lenovo
 PRODUCT_DEVICE := jd2019
+IS_PHONE := true
+TARGET_BOOT_ANIMATION_RES := 1080
+REVENGEOS_BUILDTYPE := UNOFFICIAL
 PRODUCT_MANUFACTURER := lenovo
 PRODUCT_MODEL := Lenovo Z5s
 
